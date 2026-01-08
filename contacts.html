@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contacts.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
   <title>Pair Website</title>
   <script>
@@ -33,48 +33,52 @@
     </header>
   </div>
 
-  <section class="contact-section">
-    <h1>Contact Us</h1>
-    <p class="subtitle">
-      Any questions or remarks? Just write us a message!
-    </p>
+      <section class="contact-page">
+      <div class="contact-wrapper">
 
-    <form class="contact-form">
-      <div class="form-row">
-        <input type="email" placeholder="Enter a valid email address" required />
-        <input type="text" placeholder="Enter your name" required />
+        
+        <div class="contact-image">
+          <img src="assets/image/contacts-model.jpg" alt="Contact Image">
+        </div>
+
+       
+        <div class="contact-content">
+          <h1>Contact Us</h1>
+
+          <div class="contact-grid">
+    
+            <form class="contact-form">
+              <label>Full Name</label>
+              <input type="text" required>
+
+              <label>E-mail</label>
+              <input type="email" required>
+
+              <label>Message</label>
+              <textarea rows="4"></textarea>
+
+              <button type="submit">Contact Us</button>
+            </form>
+
+   
+            <div class="contact-info">
+              <h4>Contact</h4>
+              <p>labjoyhope@gmail.com</p>
+
+              <h4>Based in</h4>
+              <p>Philippines</p>
+
+              <div class="social-icons">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-twitter'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </section>
 
-      <button type="submit">SUBMIT</button>
-    </form>
-  </section>
-
-  <section class="info-section">
-    <div class="info-container">
-      <div class="info-box">
-        <div class="icon">🏃</div>
-        <h3>ABOUT CLUB</h3>
-        <p>Running Guide<br />Workouts</p>
-      </div>
-
-      <div class="info-box">
-        <div class="icon">📞</div>
-        <h3>PHONE (LANDLINE)</h3>
-        <p>
-          +912 3 567 8987<br />
-          +912 5 252 3336
-        </p>
-      </div>
-
-      <div class="info-box">
-        <div class="icon">📍</div>
-        <h3>OUR OFFICE LOCATION</h3>
-        <p>
-          The Interior Design Studio Company<br />
-          The Courtyard, Al Quoz 1, Colorado, USA
-        </p>
-      </div>
-    </div>
-  </section>
   </body>
 </html>
